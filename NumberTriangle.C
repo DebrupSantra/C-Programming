@@ -1,21 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,c=1,k,space=7;
+    int i,j,k,space=5;
     for(i=1;i<=5;i++)
     {
         space--;
         for(k=1;k<=space-1;k++)
         {
-            if(c>10)
-            
             printf(" ");
            
         }
          for(j=1;j<=i;j++)
         {
-            printf("%d ",c);
-            c++;
+            printf("%d ",j);
         }
             
         printf("\n");
