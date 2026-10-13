@@ -8,9 +8,7 @@ int main()
         for(k=1;k<=space-1;k++)
         {
             if(c>10)
-            {
-                continue;
-            }
+            
             printf(" ");
            
         }
